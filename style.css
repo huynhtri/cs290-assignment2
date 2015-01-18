@@ -75,3 +75,12 @@ dd {
  	padding: 10px 5px;
  	margin: 5px;
  }
+
+ /*******************************
+ Sets the style for images
+ *******************************/
+ img {
+ 	width: 100px;
+ 	height: 125px;
+ 	float: left;
+ }
