@@ -14,7 +14,7 @@ td {
 	text-align: center;
 }
 
-body th {
+tbody th {
 	font-weight: normal;
 	font-style: italic;
 	color: red;
@@ -47,6 +47,25 @@ dt:hover + dd {
 dd {
 	font-style: italic;
 }
+
+/*******************************
+ Sets the style the div classes
+ *******************************/
+.outer-content {
+	background-color: #ffc0cb;
+	width: 75%;
+	text-align: left;
+	padding: 20px;
+}
+
+.inner-content {
+	background-color: blue;
+	width: 75%;
+	text-align: center;
+	margin: auto;
+	color: white;
+}
+
 
 /*******************************
  Sets the style for the forms
