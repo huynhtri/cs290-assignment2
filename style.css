@@ -32,5 +32,13 @@ tbody tr:nth-child(even) {
 	background-color: #8fd8d8;
 }
 
+/*******************************
+ Sets the style for definitions
+ *******************************/
+dt {
+	font-weight: bold;
+}
 
-
+dd {
+	font-style: italic;
+}
