@@ -14,7 +14,8 @@ td {
 	text-align: center;
 }
 
-td:first-child {
+body th {
+	font-weight: normal;
 	font-style: italic;
 	color: red;
 	text-align: left;
@@ -39,7 +40,7 @@ dt {
 	font-weight: bold;
 }
 
-dt:hover {
+dt:hover + dd {
 	background-color: purple;
 }
 
