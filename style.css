@@ -39,6 +39,10 @@ dt {
 	font-weight: bold;
 }
 
+dt:hover {
+	background-color: purple;
+}
+
 dd {
 	font-style: italic;
 }
