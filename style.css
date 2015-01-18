@@ -1,0 +1,36 @@
+/*******************************
+ Sets the style for the table 
+ *******************************/
+table, th, td {
+	border: 2px solid black;
+	padding: 5px;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+td {
+	text-align: center;
+}
+
+td:first-child {
+	font-style: italic;
+	color: red;
+	text-align: left;
+}
+
+td:nth-child(3) {
+	color: blue;
+}
+
+tbody tr:nth-child(odd) {
+	background-color: #90ee90;
+}
+
+tbody tr:nth-child(even) {
+	background-color: #8fd8d8;
+}
+
+
+
