@@ -51,6 +51,8 @@ dd {
 /*******************************
  Sets the style for the forms
  *******************************/
- div {
+ form div {
  	border-style: solid;
+ 	padding: 10px 5px;
+ 	margin: 5px;
  }

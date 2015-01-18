@@ -74,18 +74,32 @@
 				<dt>Conducting</dt>
 					<dd>- A class where the you learn how to read music without</dd>
 			</dl>
-			<div>
-				<h1>Post Data</h1>
-				<form action="http://web.engr.oregonstate.edu/~osterbit/2/repo/class-content/form_tests/Formtest.php" method="post">
-					Enter text here: <input type="text" name="text_input"> <br>
-					Enter number here: <input type="numerical" name="numerical_input"> <br>
-					Enter Password here: <input type="password" name="password_input"> <br>
-					<select name="candy">
-						<option>Snickers</option>
-						<option>Skittles</option>
-						<option>Mentos</option>
-					</select>
-			</div>
+			<h1>Post Data</h1>
+			<form action="http://web.engr.oregonstate.edu/~osterbit/2/repo/class-content/form_tests/Formtest.php" method="post">
+				<div> Enter text here: <input type="text" name="text_input"> <br> </div>
+				<div> Enter number here: <input type="numerical" name="numerical_input"> <br> </div>
+				<div> Enter Password here: <input type="password" name="password_input"> <br> </div>
+				<div>
+					Select the option below: <br>
+					<input type="radio" name="candy" value="Snickers">Snickers <br>
+					<input type="radio" name="candy" value="Skittles">Skittles <br>
+					<input type="radio" name="candy" value="Mentos">Mentos <br><br>
+					<input type="submit" value="Submit Form">
+				</div>
+			</form>
+			<h1>Get Data</h1>
+			<form action="http://web.engr.oregonstate.edu/~osterbit/2/repo/class-content/form_tests/Formtest.php" method="get">
+				<div> Enter text here: <input type="text" name="text_input"> <br> </div>
+				<div> Enter number here: <input type="numerical" name="numerical_input"> <br> </div>
+				<div> Enter Password here: <input type="password" name="password_input"> <br> </div>
+				<div>
+					Select the option below: <br>
+					<input type="radio" name="candy" value="Snickers">Snickers <br>
+					<input type="radio" name="candy" value="Skittles">Skittles <br>
+					<input type="radio" name="candy" value="Mentos">Mentos <br><br>
+					<input type="submit" value="Submit Form">
+				</div>
+			</form>
 
 	<body/>
 </html>
