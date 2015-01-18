@@ -47,3 +47,10 @@ dt:hover + dd {
 dd {
 	font-style: italic;
 }
+
+/*******************************
+ Sets the style for the forms
+ *******************************/
+ div {
+ 	border-style: solid;
+ }
